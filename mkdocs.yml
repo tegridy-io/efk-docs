@@ -1,0 +1,36 @@
+# Project information
+site_name: tegridy.io
+site_url: https://www.tegridy.io/
+site_author: Debakel Orakel
+
+# Repository
+repo_name: tegridy-io/site-tegridy
+repo_url: https://github.com/tegridy-io/site-tegridy.git
+
+# Copyright
+copyright: Copyright &copy; 2024 Your local datacenter with tegridy 💗
+
+# Configuration
+theme:
+  name: material
+
+  icon:
+    repo: fontawesome/brands/github
+
+  palette:
+    scheme: slate
+    primary: lime
+
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    # - navigation.sections
+
+  #   - navigation.footer
+
+# Page tree
+nav:
+  - Home: index.md
+  - Eagle Fang Kubernetes:
+    - kubernetes/index.md
+    - kubernetes/bootstrap.md
